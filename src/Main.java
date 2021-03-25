@@ -33,6 +33,34 @@ public class Main {
             default: ;
         }
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter name: ");
+        String fName = scanner.nextLine();
+        System.out.println("This is your sample name: "+fName);
+
+//        for loop
+        for (int i = 0; i <= 10; i++){
+            System.out.println(i);
+        }
+
+//        while loop
+        int initial = 0;
+        while(initial < 10){
+            System.out.println(initial);
+            initial++;
+        }
+
+//        do while loop
+        int declare = 0;
+        do{
+            declare++;
+        }while(declare < 10);
+
+//      For each
+        int[] marks = {1, 2, 3, 4}; //Array
+        for (int marksGrade : marks){
+            System.out.println(marksGrade);
+        }
 
 //        Non Primitive Data Type
 
