@@ -19,6 +19,21 @@ public class Main {
         System.out.println(intergralNumber);
         System.out.println(largeIntergralNumber);
 
+        if(isEqualTo){
+            System.out.println(isEqualTo);
+        }else {
+            System.out.println(isEqualTo);
+        }
+
+        switch(wholeNumbers){
+            case 1:
+                System.out.println("Hello World!"); break;
+            case 2:
+                System.out.println("Hi World"); break;
+            default: ;
+        }
+
+
 //        Non Primitive Data Type
 
     }
